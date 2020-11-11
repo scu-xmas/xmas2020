@@ -30,7 +30,7 @@ p:first-of-type {
 }
 
 p:last-of-type {
-  @apply mb-24;
+  @apply mb-16;
 }
 
 ul {
@@ -70,15 +70,15 @@ li {
 }
 .content-panel {
   @apply bg-gray-200;
+  height: 200vh;;
 }
 
 .panel,
 .h-panel {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: relative;
   box-sizing: border-box;
 }
